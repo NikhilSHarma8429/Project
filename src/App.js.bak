@@ -1,5 +1,5 @@
 import './App.css';
-//import logo2 from 'C:/Users/Arushi/Downloads/1_4HF_xqCCxBmgXt5PprsGFg-removebg-preview.png'
+import logo2 from 'C:/Users/Arushi/Downloads/1_4HF_xqCCxBmgXt5PprsGFg-removebg-preview.png'
 import React from 'react'
 import ReactPlayer from 'react-player'
 function App() {
@@ -10,8 +10,8 @@ function App() {
             <style src="./App.css"></style>
             <title>All In One Website</title>
             <body>
-                {/* <img src={logo2}> */}
-                {/* </img> */}
+                <img src={logo2}>
+                </img>
                 <h2 className="name">
                     All_In_One
                 </h2>
