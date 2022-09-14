@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-top: 0.2rem;
+}
+body{
+    background:rgb(46, 136, 91);
+  }
+  img:first-child{
+    width: 49%;
+    margin-left: 691px;
+    padding-top: 156px;
+    position: absolute;
+  }
+.spotify{
+    height: 2rem;
+    width: 2rem;
+    left: -40rem;
+    top: -13rem;
+}
+i{
+    position:absolute;
+    top: 1.5rem;
+    left: 2rem;
+    
+    z-index: 1;
+}
+  nav{
+    background:#00632d;
+    position: relative;
+    border-radius: 10px;
+    height: 3rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: 45rem;
+}
+.name{
+    position: relative;
+    right: 35rem;
+    font-size: 2rem;
+}
+nav ul li{ 
+    padding:0.3rem 2rem;
+    font-size: 1.5rem;
+}
+.heading{
+    font-family: 'Ms Madi', cursive;
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    top: 80px;
+    left: 23px;
+  }
+  .para{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 18rem;
+    left: 90px;
+    right: 42rem;
+    line-height: 3rem;
+  }
+  a{
+    position: static;
+    text-decoration: none;
+    color: black;
+  }
+  #contacts:hover,a:hover{
+    background: blue;
+    height: fit-content;
+    text-decoration:underline;
+    border-radius: 0.5rem;
+    transition: 1s;
+  }
+  /* .music{
+    padding-top: 4rem;
+    background: white;
+    position: absolute;
+    left: 5rem;
+    right: 79rem;
+    top: 32rem;
+  }
+  .youtube{
+    background:white;
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    top: 2rem;
+  } */
