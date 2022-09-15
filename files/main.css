@@ -1,101 +1,164 @@
-*{
-    padding: 0;
-    margin: 0;
-    margin-top: 0.2rem;
-}
-body{
-    background:rgb(46, 136, 91);
-  }
-  img:first-child{
-    width: 49%;
-    margin-left: 691px;
-    padding-top: 156px;
-    position: absolute;
-  }
-.spotify{
-    height: 2rem;
-    width: 2rem;
-    left: -40rem;
-    top: -13rem;
-}
-i{
-    position:absolute;
-    top: 1.5rem;
-    left: 2rem;
-    
-    z-index: 1;
-}
-  nav{
-    background:#00632d;
-    border-radius: 10px;
-    height: 3rem;
+* {
+  padding: 0;
+  margin: 0;
+  margin-top: 0.2rem;
 }
 
-nav ul{
-    display: flex;
+#icon {
+  display: none;
+}
+
+body {
+  background: rgb(46, 136, 91);
+}
+
+img:first-child {
+  width: 49%;
+  margin-left: 691px;
+  padding-top: 156px;
+  position: absolute;
+}
+
+.spotify {
+  height: 2rem;
+  width: 2rem;
+  left: -40rem;
+  top: -13rem;
+}
+
+i {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+
+  z-index: 1;
+}
+
+nav {
+  background: #00632d;
+  border-radius: 10px;
+  height: 3rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-left: 45rem;
+}
+
+.name {
+  position: relative;
+  right: 35rem;
+  font-size: 2rem;
+}
+
+nav ul li {
+  padding: 0.3rem 2rem;
+  font-size: 1.5rem;
+}
+
+.heading {
+  font-family: 'Ms Madi', cursive;
+  color: white;
+  font-size: 5rem;
+  position: relative;
+  top: 80px;
+  left: 23px;
+}
+
+.para {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 18rem;
+  left: 90px;
+  right: 42rem;
+  line-height: 3rem;
+}
+
+a {
+  position: static;
+  text-decoration: none;
+  color: black;
+}
+
+#contacts:hover,
+a:hover {
+  background: blue;
+  height: fit-content;
+  text-decoration: underline;
+  border-radius: 0.5rem;
+  transition: 1s;
+}
+
+@media screen and (max-width:700px) {
+  #icon {
+    display: block;
+    position: absolute;
+    left: 1.2rem;
+    top: 1rem;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  nav {
+    background: none;
+  }
+
+  nav ul {
+    display: block;
     list-style: none;
     margin: 0;
-    margin-left: 45rem;
-}
-.name{
+    margin-left: 1rem;
+  }
+
+  nav ul li {
     position: relative;
-    right: 35rem;
-    font-size: 2rem;
-}
-nav ul li{ 
-    padding:0.3rem 2rem;
+    top: 1rem;
+    margin-top: -0.3rem;
+    padding: 0.3rem 2rem;
     font-size: 1.5rem;
-}
-.heading{
+  }
+
+  .name {
+    position: relative;
+    left: 2rem;
+
+    font-size: 2rem;
+  }
+
+  .heading {
     font-family: 'Ms Madi', cursive;
     color: white;
     font-size: 5rem;
     position: relative;
-    top: 80px;
-    left: 23px;
+    top: 8rem;
+    width: 35rem;
   }
-  .para{
+
+  img:first-child {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 12rem;
+    left: -4rem;
+  }
+
+  .para {
     color: white;
     font-size: 30px;
     position: absolute;
-    top: 18rem;
-    left: 90px;
+    width: 45rem;
+    top: 46rem;
+    left: 1rem;
     right: 42rem;
     line-height: 3rem;
   }
-  a{
-    position: static;
-    text-decoration: none;
-    color: black;
-  }
-  #contacts:hover,a:hover{
-    background: blue;
-    height: fit-content;
-    text-decoration:underline;
-    border-radius: 0.5rem;
-    transition: 1s;
-  }
-  @media screen and (max-width:480px) {
-    body{
-      background-color: red;
-    }
-    img:first-child{
-      width: 100%;
-      margin-left: 0rem;
-      padding-top: 22rem;
-      position: absolute;
-      left:0.1rem;
-      z-index:1;
-    }
-    .para{
-      position:static;
-      margin-left:0rem;
-      margin-top:20rem;
-      width:40rem;
-    }
 
-  } 
-  /* .music{
+}
+
+/* .music{
     padding-top: 4rem;
     background: white;
     position: absolute;
