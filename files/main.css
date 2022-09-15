@@ -134,14 +134,14 @@ a:hover {
     font-size: 5rem;
     position: relative;
     top: 8rem;
-    width: 35rem;
+    width: 25rem;
   }
 
   img:first-child {
     width: 100%;
     margin: 0;
     position: absolute;
-    top: 12rem;
+    top: 20rem;
     left: -4rem;
   }
 
@@ -149,7 +149,7 @@ a:hover {
     color: white;
     font-size: 30px;
     position: absolute;
-    width: 45rem;
+    width: 25rem;
     top: 46rem;
     left: 1rem;
     right: 42rem;
