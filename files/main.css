@@ -27,7 +27,6 @@ i{
 }
   nav{
     background:#00632d;
-    position: relative;
     border-radius: 10px;
     height: 3rem;
 }
@@ -76,6 +75,26 @@ nav ul li{
     border-radius: 0.5rem;
     transition: 1s;
   }
+  @media screen and (max-width:480px) {
+    body{
+      background-color: red;
+    }
+    img:first-child{
+      width: 100%;
+      margin-left: 0rem;
+      padding-top: 22rem;
+      position: absolute;
+      left:0.1rem;
+      z-index:1;
+    }
+    .para{
+      position:static;
+      margin-left:0rem;
+      margin-top:20rem;
+      width:40rem;
+    }
+
+  } 
   /* .music{
     padding-top: 4rem;
     background: white;
