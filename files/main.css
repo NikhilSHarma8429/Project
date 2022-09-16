@@ -136,15 +136,15 @@ a:hover {
     color: white;
     font-size: 5rem;
     position: relative;
-    top: 8rem;
-    width: 90%;
+    top: 12rem;
+    width: 95%;
   }
 
   img:first-child {
     width: 100%;
     margin: 0;
     position: absolute;
-    top: 25rem;
+    top: 22rem;
     left: -4rem;
   }
 
@@ -153,26 +153,26 @@ a:hover {
     font-size: 30px;
     position: absolute;
     width: 90%;
-    top: 46rem;
+    top: 47rem;
     left: 1rem;
     right: 42rem;
     line-height: 3rem;
   }
 
 }
-
-/* .music{
-    padding-top: 4rem;
-    background: white;
-    position: absolute;
-    left: 5rem;
-    right: 79rem;
-    top: 32rem;
+@media screen and (max-width:376px){
+  img:first-child{
+    width: 26rem;
   }
-  .youtube{
-    background:white;
+}
+@media screen and (max-width:320px){
+  img:first-child{
     position: absolute;
-    left: 2rem;
-    right: 2rem;
-    top: 2rem;
-  } */
+    top: 27rem;
+    width:22rem;
+  }
+  .para{
+    position: absolute;
+    top:49rem;
+  }
+} 
