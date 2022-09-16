@@ -94,7 +94,7 @@ a:hover {
   z-index: 1;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:700px){
   #icon {
     display: block;
     position: fixed;
@@ -161,18 +161,32 @@ a:hover {
 
 }
 @media screen and (max-width:376px){
-  img:first-child{
-    width: 26rem;
+  .heading{
+    width:20rem;
   }
-}
-@media screen and (max-width:320px){
   img:first-child{
     position: absolute;
-    top: 27rem;
+    top:29rem;
+    width: 26rem;
+  }
+  .para{
+    position: absolute;
+    top: 55rem;
+  }
+}
+@media screen and (max-width:325px){
+  .heading{
+    position: relative;
+    left: 0rem;
+    width: 20rem;
+  }
+  img:first-child{
+    position: absolute;
+    top: 29rem;
     width:22rem;
   }
   .para{
     position: absolute;
-    top:49rem;
+    top:52rem;
   }
 } 
