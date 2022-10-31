@@ -1,7 +1,12 @@
-*{
-
-
-  max-width: 120vw;
+/* *{ */
+  /* padding: 0;
+  margin: 0; */
+  /* max-width: max-content; */
+  
+/* } */
+body{
+  width: 100vw;
+  overflow-x: hidden;
 }
 .display-4{
   
@@ -19,16 +24,16 @@
   padding-left: 2.3rem;
 }
 .col-md-7{
-
-  width: 100vw;
+  margin-left: 0.5rem;
+  width: 100%;
   text-align: center;
 }
 /* .order-md-2{
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
 } */
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 769px) {
   .navbar{
     z-index: 2;
 
@@ -41,6 +46,10 @@
       margin-bottom: 0.5rem;
       /* display: block; */
       z-index: 2;
+    }
+    *{
+      max-width: 100vw;
+      /* overflow-x: auto; */
     }
     
 }
