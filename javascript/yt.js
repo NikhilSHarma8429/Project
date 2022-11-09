@@ -125,7 +125,8 @@ $(document).ready(function () {
                     <tr>
                     <td>
             
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/${item.id.videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </td>
+                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="700.54" height="443" type="text/html" src="https://www.youtube.com/embed/${item.id.videoId}?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=http://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://unoregler.com/da/">uno regler dansk</a></small></div><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://skattefrittcasino.com/">casino utan svensk licens skattefritt</a></small></div><div><small><a href="https://youtubeembedcode.com/pl/">youtubeembedcode pl</a></small></div><div><small><a href="https://unoregler.com/da/">https://unoregler.com/da/</a></small></div><div><small><a href="https://youtubeembedcode.com/pl/">youtubeembedcode pl</a></small></div><div><small><a href="https://skattefrittcasino.nu/">casino utan skatt</a></small></div></iframe>
+                    </td>
                     <td>
                     <a target="_blank" href="https://www.ssyoutube.com/watch?v=${item.id.videoId}">${item.snippet.title}</a>
                     <br>
