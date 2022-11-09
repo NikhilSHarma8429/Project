@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<tr>
+    <td>
+    <a target="_blank" href="https://www.youtube.com/watch?v=${item.id.videoId}"><img width="250" height="200" src="${item.snippet.thumbnails.high.url}"/></a>
+    </td>
+    <td>
+    <a target="_blank" href="https://www.youtube.com/watch?v=${item.id.videoId}">${item.snippet.title}</a>
+    <br>
+    <span style="font-size:13px">Description: ${item.snippet.description}</span>
+    </td>
+    <td>
+    <a target="_blank" class="btn btn-danger btn-block" href="https://www.youtube.com/channel/${item.snippet.channelId}">${item.snippet.channelTitle}</a>
+    </td>
+    </tr>
